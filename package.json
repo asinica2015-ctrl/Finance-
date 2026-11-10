@@ -1,0 +1,10 @@
+{
+  "name": "work-tracker",
+  "version": "1.0.0",
+  "description": "Учёт работы: Telegram Mini App (заказы, траты, статистика, клиенты) с любой БД и любым Telegram-ботом",
+  "main": "server.js",
+  "scripts": { "start": "node --no-warnings server.js", "dev": "DEV_AUTH=1 node --no-warnings server.js" },
+  "engines": { "node": ">=22.5" },
+  "optionalDependencies": { "pg": "^8.11.0", "mysql2": "^3.9.0" },
+  "license": "MIT"
+}
